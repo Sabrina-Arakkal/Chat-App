@@ -1,0 +1,87 @@
+@import '~antd/dist/antd.css';
+
+.chatwindow
+{
+    height:98vh;
+    padding:10px;
+    margin :10vh 0 10vh;
+    background-image: url(../assets/bg.jpg);
+    background-size: contain;
+    display:flex;
+    flex-direction: column;
+    overflow-y: scroll;
+
+
+}
+.form{
+    height: 10vh;
+    position: fixed;
+    bottom: 0%;
+    background-color: rgb(24, 23,23);
+    width: 100%;
+    max-width: 500px;
+    font-size: 1.5rem;
+    display: flex;
+    margin-left: 0;
+   
+}
+form button{
+   
+    background-color: rgb(56,56,143);
+    border:none;
+    
+    
+}
+form button img{
+    width: 39px;
+    height: 52px;
+}
+form input{
+    line-height: 2;
+    width:89%;
+    font-size: 1.5rem;
+    background-color: rgb(58, 58, 58);
+    color: white;
+    outline: 0;
+    border: none;
+   margin-left: 0%;
+   padding: 0 10px;
+  
+}
+.message{
+    display: flex;
+    align-items: center;
+
+}
+.message img{
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 2px 5px;
+}
+span{
+    max-width: 500px;
+    margin-bottom: 10px;
+    line-height: 24px;
+    padding: 10px 20px;
+    color: black;
+    font-weight: bold;
+    font-size: 16pt;
+    font-style: italic;
+    text-align: right;
+
+}
+span img{
+    height:26px ;
+    width: 50px;
+}
+.sent{
+    flex-direction: row-reverse;
+}
+.sent p{
+    align-self: flex-end;
+    background-color: violet;
+}
+.received p{
+    background-color: blueviolet;
+}

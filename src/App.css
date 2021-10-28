@@ -1,0 +1,30 @@
+
+
+.App {
+  text-align: center;
+  max-width: 728px;
+  margin-left: 400px;
+  max-height: 1000px;
+  margin: o auto;
+ 
+}
+.btgoogle{
+  width:05%;
+margin-left: 50px;
+}
+.content{
+  max-height: 3000px;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  
+}
+.googlebt{
+display:flex;
+margin-left:180px ;
+justify-content: space-around;
+width:40px;
+
+}
+body{
+  background-color: #282c34;
+}

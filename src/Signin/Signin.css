@@ -1,0 +1,29 @@
+.btgoogle{
+    width:10%;
+    margin-left: 50px;
+  }
+
+  .signinbt{
+  display:flex;
+  justify-content: space-around;
+  color: black;
+  align-items: center;
+  margin-left: 20%;
+  border-radius: 1em;
+  padding: auto;
+  line-height: 20px;
+  }
+  .appSignin{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 2500vh;
+      text-align: center;
+     
+        
+ 
+  }
+ p{
+     color: black;
+     font-weight: bolder;
+ }

@@ -1,0 +1,41 @@
+@import '~antd/dist/antd.css';
+
+.head{
+  background-image:linear-gradient(-45deg,#4481eb 0%, #04befe 100%);
+  padding: 10px;
+  display: flex;
+ justify-content: space-between ;
+ box-sizing: border-box;
+ height:fit-content;
+}
+.avatar{
+  
+  float: right;
+
+  
+}
+
+.imgs{
+width:08%;
+margin-left: 500px;
+ 
+}
+.logout{
+   
+    background-color: rgb(56,56,143);
+    border:none;
+  
+    
+    
+  }
+  .logoutimg{
+    width: 34px;
+    height: 20px;
+  }
+  .bt{
+      margin-left: 450px;
+      margin-top:.0055em ;
+  }
+  body{
+    background-color: #282c34;
+  }
